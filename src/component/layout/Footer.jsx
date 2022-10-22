@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiFillTwitterCircle} from 'react-icons/ai';
+import {AiFillTwitterCircle ,AiFillApple,AiFillMedicineBox ,AiFillMediumCircle} from 'react-icons/ai';
 import {AiFillLinkedin} from 'react-icons/ai';
 
 
@@ -49,12 +49,12 @@ function Footer() {
   <div className="col-6 col-md-3 ">
   <AiFillTwitterCircle size={30} color="blue" />
 
-  <AiFillLinkedin size={30} color="black"/>
-  <AiFillTwitterCircle size={30} color="blue" />
-  <AiFillTwitterCircle size={30} color="blue" />
-  <AiFillLinkedin size={30} color="black"/>
+  <AiFillApple size={30} color="white"/>
+  <AiFillMedicineBox size={30} color="yellow" />
+  <AiFillMediumCircle size={30} color="pink" />
+  <AiFillLinkedin size={30} color="orange"/>
   <p>Subscribe to the newsletter to hear about Polkadot updates and events.</p>
-  <button type="button" class="btn btn-outline-danger my-4">Subscribe</button>
+  <button type="button" className="btn btn-outline-danger my-4">Subscribe</button>
 
 
 

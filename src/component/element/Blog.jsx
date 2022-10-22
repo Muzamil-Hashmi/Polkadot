@@ -5,7 +5,7 @@ export default function Blog() {
     <div>
       <div className="container">
         <div className="row py-5 ">
-          <h1 className="fw-bold text-center display-4 mb-5">From the blog</h1>
+          <h1 data-aos="fade-up" className="fw-bold text-center display-4 mb-5">From the blog</h1>
           <div className="col-md-4">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10011.png" className="card-img-top" alt="..." />

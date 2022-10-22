@@ -73,7 +73,7 @@ export default function Cards() {
             <div className="col-md-12 text-center ">
                 <h1 className="fw-bold">Learn more about Polkadot's <br /> technology
 </h1>
-<a href="" className="btn btn-primary btn-lg mr-2"> Discover Polkadot</a>
+<button type="button" class="btn btn-outline-danger my-4">Discover Polkadot</button>
 
             </div>
         </div>

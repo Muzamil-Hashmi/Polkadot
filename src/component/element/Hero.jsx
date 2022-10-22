@@ -17,8 +17,8 @@ export default function Hero() {
               interoperable decentralized web.
             </p>
 <div className="d-none d-md-block justify-content-center mt-2">
-  <a href="" className="btn btn-primary btn-lg mr-2"> Learn Parachains</a>
-  <a href="" className="btn btn-primary btn-lg mr-2"> Learn Cross-Chain</a>
+<button type="button" class="btn btn-outline-danger my-4">Learn Perachain</button>
+<button type="button" class="btn btn-outline-danger my-4 ms-3">Learn Cross-chain</button>
 
 </div>
             <div>
@@ -27,8 +27,10 @@ export default function Hero() {
               </div> */}
             </div>
           </div>
-          <div className="col-md-6">
-            <img className="w-75" src="/assets/cer.png" alt="" />
+          
+          <div className="col-md-6 " id="cercle">
+            <img className="w-75"  src="/assets/bgcercle.png" alt="" /> 
+            
           </div>
         </div>
       </div>
