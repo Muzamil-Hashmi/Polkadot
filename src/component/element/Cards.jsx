@@ -26,7 +26,7 @@ export default function Cards() {
             </p>
           </div>
           <div className="col-md-4">
-            <img className="w-25" src="/assets/10006.png" alt="" />
+            <img className="w-25" src="/assets/cer.png" alt="" />
             <h5 className="fw-bold">Easy blockchain innovation</h5>
             <p>
               Create a custom blockchain in minutes using the Substrate

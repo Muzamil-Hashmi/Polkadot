@@ -5,7 +5,7 @@ export default function Security() {
     <div>
       <div className="container pt-5">
         <div className="row">
-          <div className="col-md-6 pt-5">
+          <div className="col-md-6 pt-5  ">
             <h1>A better security model</h1>
             <p>
               In both Proof-of-Work and Proof-of-Stake systems, blockchains

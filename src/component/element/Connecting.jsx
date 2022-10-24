@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Connecting() {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid">
       <div className="container">
         <div className="row">
           <h1 className="fw-bold">Connecting the dots</h1>
@@ -79,7 +79,7 @@ export default function Connecting() {
         <div className="row py-5">
           <h1 className="fw-bold">Governance Roles</h1>
 
-          <div className="col-md-3 py-5">
+          <div className="col-md-3 pt-5">
             <img className="w-50" src="/assets/b.png" alt="" />
 
             <h4 className="fw-bold">Council Members</h4>
@@ -89,7 +89,7 @@ export default function Connecting() {
               malicious referen
             </p>
           </div>
-          <div className="col-md-3 py-5">
+          <div className="col-md-3 pt-5">
             <img className="w-50" src="/assets/d.png" alt="" />
 
             <h4 className="fw-bold">Technical Committee</h4>

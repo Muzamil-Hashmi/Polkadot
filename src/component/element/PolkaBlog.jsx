@@ -5,7 +5,7 @@ function PolkaBlog() {
     <div>
       <div className="container">
         <div className="row py-5 ">
-          <div className="col-md-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10011.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -26,7 +26,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10012.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -47,7 +47,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10013.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -68,7 +68,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 py-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/ad.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -89,7 +89,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 py-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/af.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -110,7 +110,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 py-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/aa.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -131,7 +131,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/ah.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -152,7 +152,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/ai.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -173,7 +173,7 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 pt-3">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/ab.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -194,7 +194,24 @@ function PolkaBlog() {
               </div>
             </div>
           </div>
+         <div className="row ">
+          <div className="col-md-4 "></div>
+         <div className="col-md-4 ps-5 py-5  ">
+
+<nav aria-label="Page navigation example">
+<ul className="pagination">
+<li className="page-item"><a className="page-link text-danger" href="#">Previous</a></li>
+<li className="page-item"><a className="page-link text-danger" href="#">Page 1 of 10</a></li>
+{/* <li className="page-item"><a className="page-link text-danger" href="#">Page 2 of 10</a></li>
+<li className="page-item"><a className="page-link text-danger " href="#">Page 3 of 10</a></li> */}
+<li className="page-item"><a className="page-link text-danger" href="#">Next</a></li>
+</ul>
+</nav>
+
+</div>
+         </div>
         </div>
+       
         <div className="row">
           <h1 className="text-center fw-bold ">
             Subscribe to the newsletter <br /> to hear about updates and <br />{" "}

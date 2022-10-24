@@ -1,6 +1,8 @@
 import React from 'react'
 import {AiFillTwitterCircle ,AiFillApple,AiFillMedicineBox ,AiFillMediumCircle} from 'react-icons/ai';
 import {AiFillLinkedin} from 'react-icons/ai';
+import {TiSocialTwitterCircular,TiSocialGithubCircular,TiSocialFacebookCircular,TiSocialYoutubeCircular,TiSocialInstagramCircular,TiSocialLinkedinCircular,TiSocialGooglePlusCircular} from "react-icons/ti"
+
 
 
 function Footer() {
@@ -12,7 +14,7 @@ function Footer() {
 
 <div className="row">
 
-  <div className=" col-6 col-md-3   ">
+  <div className=" col-6 col-md-3  pt-3 px-3  ">
 
 <h4 className='tag fw-bold'>General</h4>
 
@@ -23,7 +25,7 @@ function Footer() {
 <p>partners</p>
 <p>Developers</p>
   </div>
-  <div className="col-6 col-md-3  ">
+  <div className="col-6 col-md-3  pt-3 px-3 ">
 
 <h4 className='tag fw-bold'>Technalogy</h4>
 
@@ -34,7 +36,7 @@ function Footer() {
 <p>partners</p>
 <p>Developers</p>
   </div>
-  <div className="col-6 col-md-3  ">
+  <div className="col-6 col-md-3 pt-3 px-3  ">
 
 <h4 className='tag fw-bold'>Community</h4>
 
@@ -46,13 +48,14 @@ function Footer() {
 <p>Encosystem</p>
   </div>
   
-  <div className="col-6 col-md-3 ">
-  <AiFillTwitterCircle size={30} color="blue" />
+  <div className="col-6 col-md-3  pt-3 px-3">
+  <TiSocialLinkedinCircular size={30} />
 
-  <AiFillApple size={30} color="white"/>
-  <AiFillMedicineBox size={30} color="yellow" />
-  <AiFillMediumCircle size={30} color="pink" />
-  <AiFillLinkedin size={30} color="orange"/>
+  <TiSocialTwitterCircular size={25} />
+
+<TiSocialGithubCircular size={25} />
+<TiSocialFacebookCircular size={25} />
+  <TiSocialGooglePlusCircular size={30} color="white  "/>
   <p>Subscribe to the newsletter to hear about Polkadot updates and events.</p>
   <button type="button" className="btn btn-outline-danger my-4">Subscribe</button>
 

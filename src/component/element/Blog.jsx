@@ -6,7 +6,7 @@ export default function Blog() {
       <div className="container">
         <div className="row py-5 ">
           <h1 data-aos="fade-up" className="fw-bold text-center display-4 mb-5">From the blog</h1>
-          <div className="col-md-4">
+          <div className="col-md-4 py-4">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10011.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -27,7 +27,7 @@ export default function Blog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 py-4">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10012.png" className="card-img-top" alt="..." />
               <div className="card-body">
@@ -48,7 +48,7 @@ export default function Blog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 py-4">
             <div className="card" style={{ width: "18rem" }}>
               <img src="/assets/10013.jpg" className="card-img-top" alt="..." />
               <div className="card-body">

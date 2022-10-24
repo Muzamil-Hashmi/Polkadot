@@ -5,7 +5,7 @@ export default function Parachains() {
     <div className="container-fluid bg-black text-white">
       <div className="container py-5">
         <div className="row">
-          <h1 className="fw-bold display 3 text-center py-5">
+          <h1 className="fw-bold display 3 text-center py-5 ">
             Parachains: parallel transaction processing
           </h1>
 
@@ -25,8 +25,8 @@ export default function Parachains() {
             <p>Single transaction</p>
             <img src="/assets/1.png" alt="" />
           </div>
-          <div className="col-md-4">
-            <h4>Polkadot method::</h4>
+          <div className="col-md-4 ps-5">
+            <h4>Polkadot method:</h4>
             <p>Multi parallelized transactions</p>
             <img src="/assets/2.png" alt="" />
           </div>

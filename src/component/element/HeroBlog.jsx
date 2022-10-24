@@ -9,7 +9,7 @@ export default function HeroBlog() {
 
             <div className="col-md-12 py-5">
 
-                <h1 className='text-center display-3 fw-bold '>Polkadot blog</h1>
+                <h1 className='text-center display-3 fst-italic fw-bold '>Polkadot blog</h1>
             </div>
         </div>
       </div>

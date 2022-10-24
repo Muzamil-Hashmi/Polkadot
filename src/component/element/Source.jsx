@@ -25,22 +25,22 @@ export default function Source() {
         </div>
         <div className="row text-center py-5">
 
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
             <img className="w-25" src="/assets/10008.png" alt="" />
 
 
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
             <img className="w-25" src="/assets/10009.png" alt="" />
 
 
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
             <img className="w-25" src="/assets/10008.png" alt="" />
 
 
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
             <img className="w-25" src="/assets/10009.png" alt="" />
 
 

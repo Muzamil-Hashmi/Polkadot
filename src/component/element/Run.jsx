@@ -8,10 +8,10 @@ export default function Run() {
         <div className="row">
           <div className="col-md-4">
             <div
-              className="card border-light mb-3"
+              className="card border-light mb-3 mb-4" id="card12"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark  d-flex">
                 <AiFillTwitterCircle size={50} color="red" />
 
                 <p>
@@ -22,12 +22,12 @@ export default function Run() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-4 " id="card13">
             <div
-              className="card border-light mb-3"
+              className="card border-light  mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0  text-dark d-flex">
                 <AiFillApple size={50} color="pink" />
 
                 <p>
@@ -38,12 +38,12 @@ export default function Run() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 " id="card14">
             <div
               className="card border-light mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark d-flex">
                 <AiFillMedicineBox size={50} color="green" />
 
                 <p>
@@ -59,7 +59,7 @@ export default function Run() {
               className="card border-light mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark d-flex">
                 <AiFillMediumCircle size={50} color="purple" />
 
                 <p>
@@ -75,7 +75,7 @@ export default function Run() {
               className="card border-light  mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark d-flex">
                 <AiFillHome size={50} color="orange" />
 
                 <p>
@@ -91,7 +91,7 @@ export default function Run() {
               className="card border-light mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark d-flex">
                 <AiFillPhone size={50} color="yellow" />
 
                 <p>
@@ -111,7 +111,7 @@ export default function Run() {
               className="card border-light mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark d-flex">
                 <AiFillAndroid size={50} color="blue" />
 
                 <p>
@@ -124,10 +124,10 @@ export default function Run() {
           </div>
           <div className="col-md-4">
             <div
-              className="card border-light mb-3"
+              className="card border-light p-0 mb-3"
               style={{ maxWidth: "18rem" }}
             >
-              <div className="card-body text-dark d-flex">
+              <div className="card-body p-0 text-dark d-flex">
                 <AiFillTwitterCircle size={50} color="black" />
 
                 <p>

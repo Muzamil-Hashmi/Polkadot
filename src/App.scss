@@ -8,22 +8,36 @@
 }
 .btn{
     border-radius: 20% 20% 20% 20% / 60% 60% 60% 60%   !important;
-    // background-color= #e6007a !important;
+    color: #f4079d !important;
+    border-color: #f4079d !important;
+    padding: 10px !important;
+    font-size:20px !important;
+}
+
+.btn:hover{
+    background-color: #f4079d!important;
+    color: #efefef !important;
+    border-color:#f45fbd !important;
+    
 }
 .btn-outline-danger{
     // background-color: #f45fbd !important;
     
 }
-#cercle{
+.cercle{
     background-image:url("../public/assets/dot.png");
    
     
-width: 50%;
-position: relative;
+width: 100% !important;
+
 background-size: contain;
+justify-content: center !important;
 background-repeat: no-repeat;
-padding-right: 30px;
-padding-top: 10px;
+// padding-right: 10px;
+// padding-top: -10px;
+background-position: cover; 
+
+
 
 
 
@@ -43,4 +57,26 @@ padding-top: 10px;
 }
 #sec{
     background-color: #172026 !important;
+}
+#card12{
+    margin-top: -20px;
+}
+#card13{
+    margin-top: -20px;
+}
+#card14{
+    margin-top: -20px;
+}
+#nav12{
+    margin-bottom: -25px;
+    opacity: 0.5;
+}
+#nav12:hover{
+    opacity: 1;
+}
+.link{
+    text-decoration: none !important;
+
+
+    
 }

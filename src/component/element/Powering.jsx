@@ -14,17 +14,9 @@ export default function Powering() {
             </p>
           </div>
 
-          <div className="col-md-4 py-5">
-            <img className="w-75" src="/assets/10006.png" alt="" />
-          </div>
-          <div className="col-md-4 py-5">
-            <img className="w-75" src="https://polkadot.network/assets/img/icons/home-icon-token-2.svg?v=ea608e625d" alt="" />
-          </div>
-          <div className="col-md-4 py-5">
-            <img className="w-75" src="/assets/10007.png" alt="" />
-          </div>
-          <div className="col-md-4">
-            <h2>Governance</h2>
+          <div className="col-md-4 py-5 px-5">
+          <img className="w-75" src="/assets/10007.png" alt="" />
+          <h2 >Governance</h2>
             <p>
               Polkadot token holders have complete control over the protocol.
               All privileges, which on other platforms are exclusive to miners,
@@ -33,7 +25,8 @@ export default function Powering() {
               and fixes.
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 py-5 px-5">
+            <img className="w-75" src="https://polkadot.network/assets/img/icons/home-icon-token-2.svg?v=ea608e625d" alt="" />
             <h2>Staking
 </h2>
             <p>
@@ -42,7 +35,8 @@ export default function Powering() {
 
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 py-5 px-5">
+            <img className="w-75" src="/assets/10007.png" alt="" />
             <h2>Bonding</h2>
             <p>
             New parachains are added by bonding tokens. Outdated or non-useful parachains are removed by removing bonded tokens. This is a form of proof of stake.
@@ -50,6 +44,9 @@ export default function Powering() {
 
             </p>
           </div>
+         
+          
+          
         </div>
         <div className="row fw-bold display-3 text-center">
 <div className="col-md-12">
